@@ -18,8 +18,8 @@ We compare standard CLIP retrieval with our negation-aware approach on queries i
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](assets/clip_dog.jpg) |
-| DistilBERT + CLIP | ![](assets/ours_animal_not_dog.jpg) |
+| DeBERTa-V3-large + CLIP | ![](images/img10.jpeg) |
+| DistilBERT + CLIP | ![](images/img9.jpeg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images of dogs despite the negation.  
@@ -32,8 +32,8 @@ DistilBERT + CLIP method correctly excludes dogs and retrieves other animals.
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](assets/clip_fruits.jpg) |
-| DistilBERT + CLIP | ![](assets/ours_fridge_no_fruits.jpg) |
+| DeBERTa-V3-large + CLIP | ![](images/clip_fruits.jpg) |
+| DistilBERT + CLIP | ![](images/ours_fridge_no_fruits.jpg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images containing fruits.  
@@ -46,8 +46,8 @@ DistilBERT + CLIP method retrieves a fridge without fruits, respecting the negat
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](assets/clip_ocean.jpg) |
-| DistilBERT + CLIP | ![](assets/ours_boat_no_ocean.jpg) |
+| DeBERTa-V3-large + CLIP | ![](images/clip_ocean.jpg) |
+| DistilBERT + CLIP | ![](images/ours_boat_no_ocean.jpg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP prioritizes dominant associations (boat → ocean).  
@@ -60,8 +60,8 @@ DistilBERT + CLIP method retrieves boats in alternative contexts.
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](assets/clip_children.jpg) |
-| DistilBERT + CLIP | ![](assets/ours_adults.jpg) |
+| DeBERTa-V3-large + CLIP | ![](images/clip_children.jpg) |
+| DistilBERT + CLIP | ![](images/ours_adults.jpg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves children playing.  
