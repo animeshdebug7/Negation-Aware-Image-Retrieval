@@ -46,7 +46,7 @@ DistilBERT + CLIP method retrieves a fridge without fruits, respecting the negat
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](images/3.jpeg) |
+| DeBERTa-V3-large + CLIP | ![](images/img3.jpeg) |
 | DistilBERT + CLIP | ![](images/img4.jpeg) |
 
 **Observation:**  
