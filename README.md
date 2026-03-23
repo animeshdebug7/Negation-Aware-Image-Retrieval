@@ -28,7 +28,7 @@ DistilBERT + CLIP method correctly excludes dogs and retrieves other animals.
 ---
 
 ### 🧪 Query 2
-**Text:** *"a fridge without fruits"*
+**Text:** *"an image of a fridge without fruits"*
 
 | Model | Retrieved Image |
 |------|----------------|
@@ -42,12 +42,12 @@ DistilBERT + CLIP method retrieves a fridge without fruits, respecting the negat
 ---
 
 ### 🧪 Query 3
-**Text:** *"a boat not in the ocean"*
+**Text:** *"an image of a boat not in the ocean"*
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](images/clip_ocean.jpg) |
-| DistilBERT + CLIP | ![](images/ours_boat_no_ocean.jpg) |
+| DeBERTa-V3-large + CLIP | ![](images/3.jpeg) |
+| DistilBERT + CLIP | ![](images/img4.jpeg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP prioritizes dominant associations (boat → ocean).  
@@ -56,12 +56,12 @@ DistilBERT + CLIP method retrieves boats in alternative contexts.
 ---
 
 ### 🧪 Query 4
-**Text:** *"people playing in a park not children"*
+**Text:** *"an image of people playing in a park not children"*
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](images/clip_children.jpg) |
-| DistilBERT + CLIP | ![](images/ours_adults.jpg) |
+| DeBERTa-V3-large + CLIP | ![](images/img5.jpeg) |
+| DistilBERT + CLIP | ![](images/img6.jpeg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves children playing.  
