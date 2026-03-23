@@ -7,6 +7,86 @@ Modern vision-language models such as CLIP perform well on descriptive queries b
 This project explores a method to enable **negation-aware image retrieval**, improving text-to-image search by correctly identifying and excluding negated concepts.
 
 ---
+## 📊 Comparison: Standard CLIP vs Negation-Aware Retrieval
+
+We compare standard CLIP retrieval with our negation-aware approach on queries involving negation.
+
+---
+
+### 🧪 Query 1
+**Text:** *"an image of an animal that is not a dog"*
+
+| Model | Retrieved Image |
+|------|----------------|
+| CLIP | ![](assets/clip_dog.jpg) |
+| Ours | ![](assets/ours_animal_not_dog.jpg) |
+
+**Observation:**  
+CLIP retrieves images of dogs despite the negation.  
+Our method correctly excludes dogs and retrieves other animals.
+
+---
+
+### 🧪 Query 2
+**Text:** *"a fridge without fruits"*
+
+| Model | Retrieved Image |
+|------|----------------|
+| CLIP | ![](assets/clip_fruits.jpg) |
+| Ours | ![](assets/ours_fridge_no_fruits.jpg) |
+
+**Observation:**  
+CLIP retrieves images containing fruits.  
+Our method retrieves a fridge without fruits, respecting the negation.
+
+---
+
+### 🧪 Query 3
+**Text:** *"a boat not in the ocean"*
+
+| Model | Retrieved Image |
+|------|----------------|
+| CLIP | ![](assets/clip_ocean.jpg) |
+| Ours | ![](assets/ours_boat_no_ocean.jpg) |
+
+**Observation:**  
+CLIP prioritizes dominant associations (boat → ocean).  
+Our method retrieves boats in alternative contexts.
+
+---
+
+### 🧪 Query 4
+**Text:** *"people playing in a park not children"*
+
+| Model | Retrieved Image |
+|------|----------------|
+| CLIP | ![](assets/clip_children.jpg) |
+| Ours | ![](assets/ours_adults.jpg) |
+
+**Observation:**  
+CLIP retrieves children playing.  
+Our method correctly retrieves adults.
+
+---
+
+## 📌 Summary
+
+- Standard CLIP struggles with **negation and compositional constraints**
+- Our approach improves retrieval by:
+  - Identifying negated concepts  
+  - Filtering or re-ranking results accordingly  
+
+This leads to more **accurate and controllable text-to-image retrieval**.
+
+
+
+
+
+
+
+
+
+---
 
 ## 🎯 Problem Statement
 
