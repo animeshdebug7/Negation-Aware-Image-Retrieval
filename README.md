@@ -19,8 +19,8 @@ We compare standard CLIP retrieval with our negation-aware approach on queries i
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](images/img10.jpeg) |
-| DistilBERTvp + CLIP | ![](images/img9.jpeg) |
+| DeBERTa-V3-large + CLIP | <img src="images/img10.jpeg" width="60%"/> |
+| DistilBERTvp + CLIP | <img src="images/img9.jpeg" width="60%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images of dogs despite the negation.  
@@ -33,8 +33,8 @@ DistilBERTvp + CLIP method correctly excludes dogs and retrieves other animals.
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](images/clip_fruits.jpg) |
-| DistilBERTvp + CLIP | ![](images/ours_fridge_no_fruits.jpg) |
+| DeBERTa-V3-large + CLIP | ![](images/img7.jpeg) |
+| DistilBERTvp + CLIP | ![](images/img13.jpeg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images containing fruits.  
