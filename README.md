@@ -61,7 +61,7 @@ DistilBERTvp + CLIP method retrieves boats in alternative contexts.
 
 | Model | Retrieved Image |
 |------|----------------|
-| DeBERTa-V3-large + CLIP | ![](images/img5.jpeg) |
+| DeBERTa-V3-large + CLIP | <img src="images/img5.jpeg" width="50%"/> |
 | DistilBERTvp + CLIP | ![](images/img6.jpeg) |
 
 **Observation:**  
@@ -76,7 +76,7 @@ DistilBERTvp + CLIP method correctly retrieves adults.
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | ![](images/img6.jpeg) |
-| DistilBERTvp + CLIP | ![](images/img5.jpeg) |
+| DistilBERTvp + CLIP | <img src="images/img5.jpeg" width="50%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves adults playing as CLIP just sees adults.  
