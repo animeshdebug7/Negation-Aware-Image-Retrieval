@@ -70,7 +70,7 @@ DistilBERTvp + CLIP method correctly retrieves adults.
 
 ---
 
-### 🧪 Query 4
+### 🧪 Query 5
 **Text:** *"an image of people playing in a park not adults"*
 
 | Model | Retrieved Image |
