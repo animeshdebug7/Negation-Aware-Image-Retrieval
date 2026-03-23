@@ -34,7 +34,7 @@ DistilBERTvp + CLIP method correctly excludes dogs and retrieves other animals.
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | ![](images/img7.jpeg) |
-| DistilBERTvp + CLIP | <img src="images/img13.jpeg" height="50%"/> |
+| DistilBERTvp + CLIP | <img src="images/img13.jpeg" width="40%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images containing fruits.  
