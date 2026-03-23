@@ -145,8 +145,8 @@ Instead of relying on training or fine-tuning large models, this project investi
   - Fine-grained semantic distinctions (e.g., adult vs child)
 
 - Demonstrates strong performance compared to:
-  - Large pretrained encoders (non-task-specific)
-  - Supervised NLI models (as a reference baseline)
+  - Large pretrained encoders (non-task-specific) -> Outperforms it
+  - Supervised NLI models (as a reference baseline) -> Gives Similar results
 
 - Improves retrieval quality in cases where standard CLIP fails
 
