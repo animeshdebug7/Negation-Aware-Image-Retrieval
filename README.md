@@ -12,7 +12,7 @@ This project explores a method to enable **negation-aware image retrieval**, imp
 
 Given a natural language query containing negation:
 
-> "an image of a table without a basket"
+> "an image of an animal not a dog"
 
 Standard retrieval systems often return images **containing the negated concept**, indicating a lack of proper negation understanding.
 
