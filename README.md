@@ -5,7 +5,6 @@
 Modern vision-language models such as CLIP perform well on descriptive queries but often fail when handling **negation** (e.g., “an image of an animal that is not a dog”). These models tend to retrieve images matching dominant concepts rather than respecting logical constraints in language.
 
 This project explores a method to enable **negation-aware image retrieval**, improving text-to-image search by correctly identifying and excluding negated concepts.
-### Calling it DistilBERTvp
 
 ---
 ## 📊 Comparison: Standard CLIP vs Negation-Aware Retrieval
@@ -20,11 +19,11 @@ We compare standard CLIP retrieval with our negation-aware approach on queries i
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | <img src="images/img10.jpeg" width="60%"/> |
-| DistilBERTvp + CLIP | <img src="images/img9.jpeg" width="60%"/> |
+| DistilBERT + CLIP | <img src="images/img9.jpeg" width="60%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images of dogs despite the negation.  
-DistilBERTvp + CLIP method correctly excludes dogs and retrieves other animals.
+DistilBERT + CLIP method correctly excludes dogs and retrieves other animals.
 
 ---
 
@@ -34,11 +33,11 @@ DistilBERTvp + CLIP method correctly excludes dogs and retrieves other animals.
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | <img src="images/img7.jpeg" width="50%"/> |
-| DistilBERTvp + CLIP | <img src="images/img13.jpeg" width="40%"/> |
+| DistilBERT + CLIP | <img src="images/img13.jpeg" width="40%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images containing fruits.  
-DistilBERTvp + CLIP method retrieves a fridge without fruits, respecting the negation.
+DistilBERT + CLIP method retrieves a fridge without fruits, respecting the negation.
 
 ---
 
@@ -48,11 +47,11 @@ DistilBERTvp + CLIP method retrieves a fridge without fruits, respecting the neg
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | ![](images/img3.jpeg) |
-| DistilBERTvp + CLIP | ![](images/img4.jpeg) |
+| DistilBERT + CLIP | ![](images/img4.jpeg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP prioritizes dominant associations (boat → ocean).  
-DistilBERTvp + CLIP method retrieves boats in alternative contexts.
+DistilBERT + CLIP method retrieves boats in alternative contexts.
 
 ---
 
@@ -62,11 +61,11 @@ DistilBERTvp + CLIP method retrieves boats in alternative contexts.
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | <img src="images/img5.jpeg" width="50%"/> |
-| DistilBERTvp + CLIP | ![](images/img6.jpeg) |
+| DistilBERT + CLIP | ![](images/img6.jpeg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves children playing.  
-DistilBERTvp + CLIP method correctly retrieves adults.
+DistilBERT + CLIP method correctly retrieves adults.
 
 ---
 
@@ -76,11 +75,11 @@ DistilBERTvp + CLIP method correctly retrieves adults.
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | ![](images/img6.jpeg) |
-| DistilBERTvp + CLIP | <img src="images/img5.jpeg" width="50%"/> |
+| DistilBERT + CLIP | <img src="images/img5.jpeg" width="50%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves adults playing as CLIP just sees adults.  
-DistilBERTvp + CLIP method correctly retrieves children.
+DistilBERT + CLIP method correctly retrieves children.
 
 ---
 
