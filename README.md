@@ -190,4 +190,4 @@ Instead of relying on training or fine-tuning large models, this project investi
 
 ## 📌 Note
 
-Details of the underlying method will be added in a future update.
+Details of the underlying method will be added in a future after Benchmarks and Pre-print is ready.
