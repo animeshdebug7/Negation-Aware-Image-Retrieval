@@ -173,21 +173,13 @@ Instead of relying on training or fine-tuning large models, this project investi
 - PyTorch  
 - HuggingFace Transformers  
 - CLIP (Vision-Language Model)  
-
----
-
-## 📊 Motivation
-
-Negation is a fundamental component of language, yet many modern AI systems struggle to handle it correctly. Improving negation understanding is critical for:
-
-- Reliable search systems  
-- Human-AI interaction  
-- Safety and correctness in AI outputs  
+ 
 
 ---
 
 ## 🔮 Future Work
 
+- Handle very complex sentences
 - Extend to more complex compositional reasoning  
 - Improve robustness to long-range dependencies  
 - Evaluate on larger and standardized benchmarks  
