@@ -86,7 +86,7 @@ DistilBERT + CLIP method correctly retrieves children.
 ## 📌 Summary
 
 - Standard CLIP struggles with **negation and compositional constraints**
-- Our approach improves retrieval by:
+- My approach improves retrieval by:
   - Identifying negated concepts  
   - Filtering or re-ranking results accordingly  
 
