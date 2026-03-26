@@ -4,12 +4,12 @@
 
 Modern vision-language models such as CLIP perform well on descriptive queries but often fail when handling **negation** (e.g., “an image of an animal that is not a dog”). These models tend to retrieve images matching dominant concepts rather than respecting logical constraints in language.
 
-This project explores a method to enable **negation-aware image retrieval**, improving text-to-image search by correctly identifying and excluding negated concepts.
+This project explores a **"Zero-shot"** method to enable **negation-aware image retrieval**, improving text-to-image search by correctly identifying and excluding negated concepts.
 
 ---
 ## 📊 Comparison: Standard CLIP vs Negation-Aware Retrieval
 
-We compare standard CLIP retrieval with our negation-aware approach on queries involving negation.
+We compare standard CLIP retrieval with my negation-aware approach on queries involving negation.
 
 ---
 
