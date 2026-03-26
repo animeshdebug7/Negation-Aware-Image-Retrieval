@@ -4,7 +4,9 @@
 
 Modern vision-language models such as CLIP perform well on descriptive queries but often fail when handling **negation** (e.g., “an image of an animal that is not a dog”). These models tend to retrieve images matching dominant concepts rather than respecting logical constraints in language.
 
-This project explores a **"Zero-shot"** method to enable **negation-aware image retrieval**, improving text-to-image search by correctly identifying and excluding negated concepts.
+This project explores a **"Zero-shot"** method to enable **negation-aware image retrieval**, improving text-to-image search by correctly identifying and excluding negated concepts. 
+- No changes to the encoder model (DistilBERT)
+- No changes to CLIP
 
 ---
 ## 📊 Comparison: Standard CLIP vs Negation-Aware Retrieval
