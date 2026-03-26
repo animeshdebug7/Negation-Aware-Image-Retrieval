@@ -126,17 +126,6 @@ Instead of relying on training or fine-tuning large models, this project investi
 
 > **Negation signals already exist in pretrained language models and can be extracted in a zero-shot manner**
 
----
-
-## 🏗️ Pipeline Overview
-
-1. Parse input query  
-2. Identify candidate concepts  
-3. Detect the negated target  
-4. Retrieve images using positive concepts  
-5. Re-rank or filter results accordingly  
-
----
 
 ## 🔬 Results
 
