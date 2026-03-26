@@ -21,7 +21,7 @@ We compare standard CLIP retrieval with my negation-aware approach on queries in
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | <img src="images/img10.jpeg" width="60%"/> |
-| DistilBERT + CLIP | <img src="images/img9.jpeg" width="60%"/> |
+| DistilBERT + CLIP<br>*(My Approach)* | <img src="images/img9.jpeg" width="60%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images of dogs despite the negation.  
@@ -35,7 +35,7 @@ DistilBERT + CLIP method correctly excludes dogs and retrieves other animals.
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | <img src="images/img7.jpeg" width="50%"/> |
-| DistilBERT + CLIP<br>(My Approach) | <img src="images/img13.jpeg" width="40%"/> |
+| DistilBERT + CLIP<br>*(My Approach)* | <img src="images/img13.jpeg" width="40%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves images containing fruits.  
@@ -49,7 +49,7 @@ DistilBERT + CLIP method retrieves a fridge without fruits, respecting the negat
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | ![](images/img3.jpeg) |
-| DistilBERT + CLIP | ![](images/img4.jpeg) |
+| DistilBERT + CLIP<br>*(My Approach)* | ![](images/img4.jpeg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP prioritizes dominant associations (boat → ocean).  
@@ -63,7 +63,7 @@ DistilBERT + CLIP method retrieves boats in alternative contexts.
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | <img src="images/img5.jpeg" width="50%"/> |
-| DistilBERT + CLIP | ![](images/img6.jpeg) |
+| DistilBERT + CLIP<br>*(My Approach)* | ![](images/img6.jpeg) |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves children playing.  
@@ -77,7 +77,7 @@ DistilBERT + CLIP method correctly retrieves adults.
 | Model | Retrieved Image |
 |------|----------------|
 | DeBERTa-V3-large + CLIP | ![](images/img6.jpeg) |
-| DistilBERT + CLIP | <img src="images/img5.jpeg" width="50%"/> |
+| DistilBERT + CLIP<br>*(My Approach)* | <img src="images/img5.jpeg" width="50%"/> |
 
 **Observation:**  
 DeBERTa-V3-large + CLIP retrieves adults playing as CLIP just sees adults.  
