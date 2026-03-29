@@ -144,8 +144,8 @@ Instead of relying on training or fine-tuning large models, this project investi
 
 ## ⚠️ Limitations
 
-- Performance degrades when negated concepts are expressed as **compositional phrases** (e.g., “basket on it”)  
-- Negation signals become less localized in longer or more complex sentences  
+- Confidence degrades when negated concepts are expressed as **compositional phrases** (e.g., “basket on it”), but the output image is still correct.  
+- Negation signals become less localized in longer or more complex sentences. 
 
 ---
 
