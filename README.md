@@ -208,12 +208,77 @@ Instead of relying on training or fine-tuning large models, this project investi
 	•	a car without headlights
 	•	a house without paint
 	•	a sky without sun
+	
 ### 🔵 Category C: Spatial Negation (25)
+	•	a dog not on the sofa
+	•	a book not on the table
+	•	a cat not under the chair
+	•	a car not in the garage
+	•	a person not in the water
+	•	a bird not in the sky
+	•	a laptop not on a desk
+	•	a phone not in hand
+	•	a bag not on the floor
+	•	a bicycle not on the road
+	•	a dog not inside a house
+	•	a person not near a car
+	•	a cat not on a bed
+	•	a cup not on a table
+	•	a shoe not on the floor
+	•	a phone not on a desk
+	•	a bag not on a chair
+	•	a person not under a tree
+	•	a dog not near water
+	•	a car not on a street
+	•	a person not on a chair
+	•	a laptop not on a lap
+	•	a book not in a shelf
+	•	a phone not in a pocket
+	•	a bag not on the back
 
 ### 🔴 Category D: Compositional Negation (25)
-
+	•	a table without a basket on it
+	•	a fridge without fruits inside
+	•	a person in a park but not a child
+	•	people playing but not children
+	•	an animal that is not a dog
+	•	a kitchen without a refrigerator
+	•	a street scene without pedestrians
+	•	a classroom without students
+	•	a desk without a computer on it
+	•	a room without a bed in it
+	•	a person holding something but not a phone
+	•	a dog near water but not swimming
+	•	a car parked but not on the street
+	•	a table with objects but not food
+	•	a person indoors but not in a kitchen
+	•	a child playing but not with toys
+	•	a man sitting but not on a chair
+	•	a bag on something but not on the floor
+	•	a vehicle that is not a car
+	•	a scene with people but not crowded
+	•	a room with furniture but not a sofa
+	•	a table with items but not books
+	•	a park with people but not sitting
+	•	a person outside but not walking
+	•	a room with light but not bright
+	
 ### ⚫ Category E: Hard / Ambiguous (15)
-
+	•	a person near a table but not touching it
+	•	a dog close to a sofa but not on it
+	•	a car beside a building but not inside
+	•	a person holding something but not clearly visible
+	•	a table with items but not identifiable
+	•	a person interacting but not holding
+	•	a dog looking at water but not in it
+	•	a car near a road but not on it
+	•	a person sitting but not fully visible
+	•	a room with objects but not organized
+	•	a person near food but not eating
+	•	a bag near a chair but not on it
+	•	a phone near a table but not placed on it
+	•	a person near a window but not looking outside
+	•	a scene with objects but not focused
 
 - "an image of an animal that is not a dog"  
 - "a fridge without fruits"  
