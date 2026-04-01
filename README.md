@@ -150,7 +150,7 @@ Instead of relying on training or fine-tuning large models, this project investi
 ---
 
 ## 🧪 Queries (Benchmarked on)
-### 🟢 Category A: Object Negation (30)
+### 😁 Category A: Object Negation (30)
 	•	a dog not on the grass
 	•	a cat without a collar
 	•	a car with no driver
@@ -182,7 +182,7 @@ Instead of relying on training or fine-tuning large models, this project investi
 	•	a building without windows
 	•	a room without furniture
 
-### 🟡 Category B: Attribute Negation (25)
+### 😀 Category B: Attribute Negation (25)
 	•	a red car that is not shiny
 	•	a shirt without stripes
 	•	a building with no lights on
@@ -209,7 +209,7 @@ Instead of relying on training or fine-tuning large models, this project investi
 	•	a house without paint
 	•	a sky without sun
 	
-### 🔵 Category C: Spatial Negation (25)
+### 🙂 Category C: Spatial Negation (25)
 	•	a dog not on the sofa
 	•	a book not on the table
 	•	a cat not under the chair
@@ -236,7 +236,7 @@ Instead of relying on training or fine-tuning large models, this project investi
 	•	a phone not in a pocket
 	•	a bag not on the back
 
-### 🔴 Category D: Compositional Negation (25)
+### 😰 Category D: Compositional Negation (25)
 	•	a table without a basket on it
 	•	a fridge without fruits inside
 	•	a person in a park but not a child
@@ -263,7 +263,7 @@ Instead of relying on training or fine-tuning large models, this project investi
 	•	a person outside but not walking
 	•	a room with light but not bright
 	
-### ⚫ Category E: Hard / Ambiguous (15)
+### 😱 Category E: Hard / Ambiguous (15)
 	•	a person near a table but not touching it
 	•	a dog close to a sofa but not on it
 	•	a car beside a building but not inside
